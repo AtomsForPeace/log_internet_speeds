@@ -10,6 +10,6 @@ virtualenv venv -p python3
 
 . venv/bin/activate
 
-pip install -r requirements
+pip install -r requirements.txt
 
 python main.py -f <enter_file_path_for_save_location>
